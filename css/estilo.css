@@ -5,21 +5,25 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #e0e0e0;
+    background-color: white;
     margin: 0;
+    background: hsla(332, 53%, 82%, 1);
+    background: linear-gradient(90deg, hsla(332, 53%, 82%, 1) 0%, hsla(176, 57%, 89%, 1) 100%); 
+    background: -moz-linear-gradient(90deg, hsla(332, 53%, 82%, 1) 0%, hsla(176, 57%, 89%, 1) 100%);
+    background: -webkit-linear-gradient(90deg, hsla(332, 53%, 82%, 1) 0%, hsla(176, 57%, 89%, 1) 100%);
 }
 
 canvas {
-    background-color: #ffffff;
+    background-color: white;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
-    border: 2px solid #000;
+    border: 1px solid #00000096;
 }
 
 h3 {
-    text-align: center;
-    margin: 0 0 20px;
-    color: #333;
+    text-align: left;
+    margin: 0 20 0 0px;
+    color: #070606;
 }
 
 .game {
@@ -31,8 +35,8 @@ h3 {
 .piece {
     width: 50px;
     height: 50px;
-    background-color: #ffcc00;
-    border-radius: 10px; /* Ajusta según sea necesario */
+    background-color:  white;
+    border-radius: 20px; /* Ajusta según sea necesario */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     transform: translateZ(0);
 }
